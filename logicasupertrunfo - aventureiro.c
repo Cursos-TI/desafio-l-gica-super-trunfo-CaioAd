@@ -112,7 +112,7 @@ int main() {
     } else if (populacao2 > populacao1) {
         printf("Vencedor: %S\n", estado2);
     } else {
-        printf("Empate \n");
+        printf("Empate! \n");
     } break;
 
         case 2: // Área.
@@ -125,7 +125,7 @@ int main() {
     } else if (area2 > area1) {
         printf("Vencedor: %S\n", estado2);
     } else {
-        printf("Empate \n");
+        printf("Empate! \n");
     } break;
 
         case 3: // PIB.
@@ -138,7 +138,7 @@ int main() {
     } else if (pib2 > pib1) {
         printf("Vencedor: %S\n", estado2);
     } else {
-        printf("Empate \n");
+        printf("Empate! \n");
     } break;
 
         case 4: // Numero de pontos turisticos.
@@ -151,7 +151,7 @@ int main() {
     } else if (pontos2 > pontos1) {
         printf("Vencedor: %S\n", estado2);
     } else {
-        printf("Empate \n");
+        printf("Empate! \n");
     } break;
 
     case 5: // Densidade populacional.
@@ -164,7 +164,7 @@ int main() {
     } else if (denpop1 > denpop2) {
         printf("Vencedor: %S\n", estado2);
     } else {
-        printf("Empate \n");
+        printf("Empate! \n");
     } break;
    }
 
